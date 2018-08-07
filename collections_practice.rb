@@ -31,7 +31,7 @@ arr.select {|word| word.start_with?("a")}
 end
 
 def sum_array(arr)
-  arr.inject{|num| sum += num}
+array.inject(0){|sum,x| sum + x }
 end
 
 def add_s(arr)
